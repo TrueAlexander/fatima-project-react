@@ -1,3 +1,7 @@
+.burger {
+  display: none;
+}
+
 .open {
   transform: translateX(0%);
   transition: 0.5s;
@@ -18,7 +22,7 @@
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 82px;
   margin: 0;
   cursor: pointer;
   transition: 0.3s;
@@ -53,4 +57,12 @@
 .fullnav li:hover {
   background-color: rgba(38, 166, 153, 0.188);
   transition: 0.3s;
+}
+
+@media  (max-width: 993px) {
+
+  .burger {
+    display: block;
+  }
+  
 }

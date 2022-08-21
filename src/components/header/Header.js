@@ -23,7 +23,7 @@ const Header = () => {
     <div className="navbar-fixed" >
       <nav className="white" role="navigation">
         <div className="nav-wrapper container">
-          <a id="logo-container" href="#" className="brand-logo">Logo</a>
+          <a id="logo-container" href="./" className="brand-logo">Logo</a>     
           <ul className="fullnav right hide-on-med-and-down">
             <li>Home</li>
             <li>About</li>
@@ -31,6 +31,7 @@ const Header = () => {
             <li>Opinions</li>
             <li>Contacts</li>
           </ul>
+
           <div
             id="nav-mobile" 
             className={closed ? "sidenav" : "sidenav open"}
@@ -67,9 +68,9 @@ const Header = () => {
 
           <div 
             data-target="nav-mobile"
-            
-            className="sidenav-trigger">
-              <i onClick={clickOpenHandler} className="material-icons">menu</i>
+            onClick={clickOpenHandler}
+            className="burger sidenav-trigger">
+              <i className="material-icons">menu</i>
           </div>
         </div>
       </nav>
