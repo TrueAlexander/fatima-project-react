@@ -36,7 +36,7 @@ const Opinions = () => {
         // onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Parceria é a palavra chave para falar de Sasha Abreu Imóveis. A tranquilidade de ter meus imóveis administrados por ela não tem preço"
             </p>
@@ -46,7 +46,7 @@ const Opinions = () => {
           </div>  
         </SwiperSlide>
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Minha estadia no Rio de Janeiro, foi algo maravilhoso. Surpreendente foi o imóvel da Sasha. Tudo perfeito ! Voltaremos!"
             </p>
@@ -56,7 +56,7 @@ const Opinions = () => {
           </div>    
         </SwiperSlide>
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Compramos nosso primeiro apartamento com Sasha. Não tivemos nenhum problema. Atendimento Impecável"
             </p>
@@ -66,7 +66,7 @@ const Opinions = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Parceria é a palavra chave para falar de Sasha Abreu Imóveis. A tranquilidade de ter meus imóveis administrados por ela não tem preço"
             </p>
@@ -76,7 +76,7 @@ const Opinions = () => {
           </div>  
         </SwiperSlide>
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Minha estadia no Rio de Janeiro, foi algo maravilhoso. Surpreendente foi o imóvel da Sasha. Tudo perfeito ! Voltaremos!"
             </p>
@@ -86,7 +86,7 @@ const Opinions = () => {
           </div>    
         </SwiperSlide>
         <SwiperSlide className="slide">
-          <div className="slide-card teal lighten-2">
+          <div className="slide-card teal lighten-2 hoverable">
             <p>
               "Compramos nosso primeiro apartamento com Sasha. Não tivemos nenhum problema. Atendimento Impecável"
             </p>
