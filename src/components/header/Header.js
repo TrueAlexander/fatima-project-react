@@ -65,12 +65,12 @@ const Header = () => {
             </ul>
           </div>
 
-          <a 
+          <div 
             data-target="nav-mobile"
             onClick={clickOpenHandler}
             className="sidenav-trigger">
               <i className="material-icons">menu</i>
-          </a>
+          </div>
         </div>
       </nav>
     </div>
