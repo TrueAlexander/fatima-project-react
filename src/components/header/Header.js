@@ -67,9 +67,9 @@ const Header = () => {
 
           <div 
             data-target="nav-mobile"
-            onClick={clickOpenHandler}
+            
             className="sidenav-trigger">
-              <i className="material-icons">menu</i>
+              <i onClick={clickOpenHandler} className="material-icons">menu</i>
           </div>
         </div>
       </nav>
