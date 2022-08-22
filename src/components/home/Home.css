@@ -1,4 +1,12 @@
+.home {
+  position: relative;
+  z-index: 10;
+}
+
 .feature-text {
-  text-align: justify;
-  
+  text-align: justify; 
+}
+
+.home h5 {
+  color: white;
 }

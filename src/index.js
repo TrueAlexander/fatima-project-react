@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import './materialize.css'
 import './materialize.min.css'
-import './style.css'
+import './index.css'
 import App from './App'
 
 
