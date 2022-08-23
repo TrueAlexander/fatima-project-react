@@ -1,5 +1,5 @@
 import Home from './../home/Home'
-import Features from '../featutes/Features'
+import Features from '../features/Features'
 import About from '../about/About'
 import Products from '../products/Products'
 import Opinions from '../opinions/Opinions'

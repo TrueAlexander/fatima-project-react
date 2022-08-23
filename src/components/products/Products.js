@@ -9,8 +9,7 @@ const Products = () => {
 
   const servicesTitles = () => {
     return dataProducts.map((item) => {
-      return <>
-                <div className="col s12 m4" key={item.id}>
+      return    <div className="products-title" key={item.id}>
                   <h5
                     onClick={e => clickToggle(e)}
                     className={activeServiceId === item.id ? "center" : "center light"}
@@ -18,7 +17,7 @@ const Products = () => {
                     {item.title}
                   </h5>
                 </div>
-             </>
+
     })
   }
 
@@ -37,15 +36,15 @@ const Products = () => {
 
   return (
     <div className="products">
-
       <div className="container">
         <div className="section">
           <div className="row">
             <div className="col s12 center">
-              <h3><i className="mdi-content-send brown-text"></i></h3>
               <h4>Our Services</h4>
-              <div className="row">
-                {servicesTitles()}
+              <div className="products-row">
+                <div className="products-titles">
+                  {servicesTitles()}
+                </div>
                 <div className="products-description">
                   {serviceDescription()}
                 </div>      

@@ -1,19 +1,28 @@
-.products {
-  
-}
-
-
-
 
 .products h5 {
   cursor: pointer;
   margin: 30px 0;
+
+}
+
+.products-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-titles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.products-title {
+  margin: 0 10px;
 }
 
 .products-description {
   border: 1px solid transparent;
   min-height: 190px ;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;

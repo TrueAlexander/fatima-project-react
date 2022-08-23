@@ -5,8 +5,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="home">
-      <div id="index-banner" className="parallax-container">
-        <div className="section no-pad-bot">
+        <div className="section">
           <div className="container">
             <h1 className="header center teal-text text-lighten-2">Fatima Project</h1>
             <div className="row center">
@@ -17,8 +16,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="parallax"><img src="background5.jpg" alt="Unsplashed background img 1"/></div>
-      </div>
     </div>
   )
 }

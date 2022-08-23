@@ -2,4 +2,25 @@
   background-color: white;
   position: relative;
   z-index: 10;
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+@media (max-width: 680px) {
+  .about {
+    max-width: 90%;
+    height: 420px;
+    overflow: auto;
+    padding-bottom: 0;
+  }
+
+  .about h4 {
+    margin-top: 0;
+  }
+
+  .about p {
+    line-height: 25px;
+    margin-bottom: 0;
+  }
 }
